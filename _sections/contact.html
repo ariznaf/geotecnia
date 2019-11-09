@@ -1,0 +1,22 @@
+---
+title: Contacto
+layout: page
+icon: fa-envelope
+order: 6
+---
+
+<p>Si deseas ponerte en contacto conmigo, utiliza el formulario, poniendo tu nombre, direcci&oacute;n de email y el mensaje.</p>
+
+<form method="post" action="https://formspree.io/{{ site.email }}">
+  <div class="row">
+    <div class="6u 12u$(mobile)"><input type="text" name="nombre" placeholder="Nombre" /></div>
+    <div class="6u$ 12u$(mobile)"><input type="text" name="correo" placeholder="Correo" /></div>
+    <div class="12u$"><input type="text" name="asunto" placeholder="Asunto" /></div>
+    <div class="12u$">
+      <textarea name="message" placeholder="Mensaje"></textarea>
+    </div>
+    <div class="12u$">
+      <input type="submit" value="Send Message" />
+    </div>
+  </div>
+</form>

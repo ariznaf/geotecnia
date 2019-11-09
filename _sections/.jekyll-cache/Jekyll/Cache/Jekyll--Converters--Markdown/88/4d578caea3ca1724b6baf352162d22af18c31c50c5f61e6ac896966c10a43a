@@ -1,0 +1,12 @@
+I"�<h2 id="ecuaciones-matemáticas-con-latex-y-mathjax">Ecuaciones matemáticas con LaTeX y MathJax</h2>
+
+<script type="math/tex; mode=display">\frac{ n! }{ r! \left( n-r \right)! }</script>
+
+<p>Esta es una ecuación en linea: $\sqrt{a^2 + b^2}$</p>
+
+<p>Esta otra es una ecuación numerada:</p>
+
+<script type="math/tex; mode=display">\frac{-b \pm \sqrt{b^2 -4ac} }{2a}</script>
+
+<p>Y una referencia a la ecuación anterior \ref{ecuacion}.</p>
+:ET
