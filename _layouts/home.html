@@ -15,7 +15,7 @@ layout: default
 	{%- endif -%}
 	<!-- Sections -->
 	{%- for _section in _sections -%}
-    {*- if page.auto-header == none -*}
+    {*- if _section.auto-header == "none" -*}
         {%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
     {*- else -*}
 		    {%- capture _excerpt -%}<p>{{- _section.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
