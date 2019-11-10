@@ -92,4 +92,4 @@ collections:
      output: true
 
 theme-options:
-  readmorelabel: "<leer más>"
+  readmorelabel: ">leer más"
