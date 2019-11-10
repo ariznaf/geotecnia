@@ -85,7 +85,7 @@ defaults:
 theme: jekyll-theme-prologue
 collections:
    sections:
-     output: true
+     output: false
    formacion:
      output: true
    proyectos:
