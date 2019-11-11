@@ -82,7 +82,7 @@ defaults:
     author: {{ site. author }}
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
+theme: jekyll-theme-advanced-prologue
 collections:
    sections:
      output: false
